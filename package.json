@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kfarshchian/READme-Generator/issues"
   },
-  "homepage": "https://github.com/kfarshchian/READme-Generator#readme"
+  "homepage": "https://github.com/kfarshchian/READme-Generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
 }
