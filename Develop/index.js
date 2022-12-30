@@ -30,7 +30,7 @@ const questions = () =>{
             type: 'checkbox',
             name: 'license',
             message: 'What license will this be under?(Use space bar to select license)',
-            choices: ['HTML', 'CSS', 'JavaScript', 'MySQL',],
+            choices: ['MIT', 'Apache', 'BSD3', 'BSD2', 'Creative Commons Attribution 4.0 International', 'Creative Commons Attribution-ShareAlike 4.0 International', 'Creative Commons Attribution-NonCommercial 4.0 International', 'Creative Commons Attribution-NoDerivates 4.0 International', 'Creative Commons Attribution-NonCommmercial-ShareAlike 4.0 International', 'Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International', 'Eclipse', 'GNU GPL v3', 'GNU GPL v2', 'GNU AGPL v3', 'GNU LGPL v3', 'GNU FDL v1.3', 'IBM', 'Mozilla', 'Open Data Commons Attribution License (BY)', 'Open Data Commons Open Database License (ODbL)', 'Open Data Commons Public Domain Dedication and License (PDDL)', 'Perl The Perl License', 'Perl The Artistic License 2.0', 'Zlib',],
         },
         {
             type: 'input',
@@ -49,13 +49,6 @@ const questions = () =>{
         },
     ]);
 };
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    console.log(fileName, data);
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
-}
-
-
 
 // TODO: Create a function to initialize app
 function init() {
