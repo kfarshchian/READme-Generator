@@ -86,14 +86,14 @@ function generateMarkdown(data) {
 
   # ${data.projectName}
 
-  ## License Information
+  ## License
   ${renderLicenseBadge(data.license)}
 
   ## Description
   ${data.description}
 
   ## Table of Contents
-  - [License Information](#License Information)
+  - [License](#License)
   - [Description](#Description)
   - [Installation](#installation)
   - [Usage](#Usage)
