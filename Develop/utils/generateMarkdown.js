@@ -93,12 +93,19 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  ${data.tableOfContents}
+  - [License Information](#License Information)
+  - [Description](#Description)
+  - [Installation](#installation)
+  - [Usage](#Usage)
+  - [Credits](#credits)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
   
   ## Installation
   ${data.installation}
 
   ## Usage
+  ![alttext](./assets/images/{add name of picture here})
   ${data.usage}
   
   ## Credits
@@ -106,6 +113,12 @@ function generateMarkdown(data) {
 
   ## Tests
   ${data.tests}
+
+  ## Questions
+  If you would like to ask me any questions. Contact me at my email address below or you can check out my Github profile.
+  Email-${data.email}
+  Github user name- ${data.githubUsername}
+  
   
 `;
 }

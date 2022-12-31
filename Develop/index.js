@@ -18,11 +18,6 @@ const questions = () =>{
         },
         {
             type: 'input',
-            name: 'tableOfContents',
-            message: 'for large projects a table of contents is useful. If the project is small you can also add N/A?',
-        },
-        {
-            type: 'input',
             name: 'installation',
             message: 'What needs to be installed in order to work properly?',
         },
@@ -47,6 +42,16 @@ const questions = () =>{
             name: 'tests',
             message: 'what tests have you ran and what was the outcome?',
         },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?',
+        },
+        {
+            type: 'input',
+            name: 'githubUsername',
+            message: 'what is your Github user name?',
+        },
     ]);
 };
 
@@ -55,7 +60,7 @@ function init() {
     questions()
     .then((data) => {
         console.log(data);
-        return fs.writeFileSync("./readme.md", generateMarkdown(data));
+        return fs.writeFileSync("./README.md", generateMarkdown(data));
       })
       .catch((err) => {
         if (err) {
