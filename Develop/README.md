@@ -1,12 +1,12 @@
 
 
-  # test
+  # READme-Generator
 
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  test
+  This project makes it easier to make README.md files. 
 
   ## Table of Contents
   - [License](#License)
@@ -18,21 +18,21 @@
   - [Questions](#Questions)
   
   ## Installation
-  test
+  npm install and npm install --save inquirer@^6.3.1
 
   ## Usage
   ![alttext](./assets/images/{add name of picture here})
-  test
+  This project makes it easier to make README.md for any project.
   
   ## Credits
-  test
+  N/A
 
   ## Tests
-  test
+  I have tested to make sure all question work and save to the generatemarkdown file.
 
   ## Questions
   If you would like to ask me any questions. Contact me at my email address below or you can check out my Github profile.
-  Email-test
-  Github user name- test
+  Email-kfarshchian@gmail.com
+  Github user name- kfarshchian
   
   
