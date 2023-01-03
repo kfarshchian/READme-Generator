@@ -21,7 +21,7 @@
   NPM install and NPM install --save inquirer@^6.3.1
 
   ## Usage
-  ![alttext](./assets/images/{add name of picture here})
+  ![alttext](./assets/images/readme.md-video.webm)
   This project makes it easier to make README.md files.
   
   ## Credits
