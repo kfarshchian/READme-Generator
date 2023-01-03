@@ -18,8 +18,8 @@
   - [Questions](#Questions)
   
   ## Installation
-  - [How to install NPM - npm install]
-  - [How to install the NPM version I used - npm install --save inquirer@^6.3.1]
+  - [How to install NPM - type what is in the curly bracket {npm install}]
+  - [How to install the NPM version I used - type what is in the curly bracket {npm install --save inquirer@^6.3.1}]
 
   ## Usage
   ![alttext](./assets/images/readme1.png)
