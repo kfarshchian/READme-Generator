@@ -116,8 +116,8 @@ function generateMarkdown(data) {
 
   ## Questions
   If you would like to ask me any questions. Contact me at my email address below or you can check out my Github profile.
-  Email-${data.email}
-  Github user name- ${data.githubUsername}
+  - Email-${data.email}
+  - Github user name- ${data.githubUsername}
   
   
 `;
