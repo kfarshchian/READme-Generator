@@ -1,12 +1,12 @@
 
 
-  # test
+  # READme-Generator
 
   ## License
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  test
+  I wanted something to make README files easier. 
 
   ## Table of Contents
   - [License](#License)
@@ -18,21 +18,21 @@
   - [Questions](#Questions)
   
   ## Installation
-  test
+  NPM install and NPM install --save inquirer@^6.3.1
 
   ## Usage
   ![alttext](./assets/images/{add name of picture here})
-  test
+  This project makes it easier to make README.md files.
   
   ## Credits
-  test
+  N/A
 
   ## Tests
-  test
+  I tested to make sure all questions were working and generated to the README.md file. 
 
   ## Questions
   If you would like to ask me any questions. Contact me at my email address below or you can check out my Github profile.
-  Email-test
-  Github user name- test
+  Email-kfarshchian@gmail.com
+  Github user name- kfarshchian
   
   

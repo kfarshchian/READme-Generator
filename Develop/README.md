@@ -6,7 +6,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  This project makes it easier to make README.md files. 
+  I wanted something to make README files easier. 
 
   ## Table of Contents
   - [License](#License)
@@ -18,17 +18,17 @@
   - [Questions](#Questions)
   
   ## Installation
-  npm install and npm install --save inquirer@^6.3.1
+  NPM install and NPM install --save inquirer@^6.3.1
 
   ## Usage
   ![alttext](./assets/images/{add name of picture here})
-  This project makes it easier to make README.md for any project.
+  This project makes it easier to make README.md files.
   
   ## Credits
   N/A
 
   ## Tests
-  I have tested to make sure all question work and save to the generatemarkdown file.
+  I tested to make sure all questions were working and generated to the README.md file. 
 
   ## Questions
   If you would like to ask me any questions. Contact me at my email address below or you can check out my Github profile.
