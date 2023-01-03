@@ -6,7 +6,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  I wanted something to make README files easier. 
+  The reason I made this project is because the README.MD file could be easier made if it was automatically made with answering questions instead of creating the whole file every time you start a new project. Node.JS was the easy way to accomplish just the thing. All you need to do is start it and answer questions and it automatically makes the whole file with everything you answered. 
 
   ## Table of Contents
   - [License](#License)
@@ -18,7 +18,8 @@
   - [Questions](#Questions)
   
   ## Installation
-  NPM install and NPM install --save inquirer@^6.3.1
+  How to install NPM - npm install
+  How to install the NPM version I used - npm install --save inquirer@^6.3.1
 
   ## Usage
   ![alttext](./assets/images/readme1.png)
@@ -26,7 +27,7 @@
   This project makes it easier to make README.md files.
   
   ## Credits
-  N/A
+  gachoi06 - Helped with the starter code on the project. 
 
   ## Tests
   I tested to make sure all questions were working and generated to the README.md file. 
